@@ -1,0 +1,1 @@
+This example demonstrates a common pitfall in TypeScript when dealing with nullable types.  The function `printName` is designed to accept a string or null value. However, if an undefined value is passed, it will behave differently depending on how it's handled.  The solution shows how to explicitly handle the undefined case for robust type safety.
